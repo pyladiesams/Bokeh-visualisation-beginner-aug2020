@@ -1,29 +1,33 @@
 
-# An introduction to { YOUR TOPIC } with { LIBRARY YOU USE } 
-### Level: Beginner or Advanced
-### Presentation: (where your audience can find the presentation)
+# An introduction to  Interactive Data Visualization with Bokeh
+### Level: Beginner
 
 ## Project description
-Describe why your introduction to this topic is important and what you want to teach to your audience
-
+Any story would be dead without proper visualizations. During the workshop, you will learn how to explore data visualization with Bokeh and how to quickly and easily make interactive plots, dashboards, and data applications.
 
 ## Setup:
-Set up a Python 3 environment that can run Jupyter notebooks (Jupyter or Jupyterlab) and install the following libraries:
-* ...
+All the required dependencies are specified in the file *requirements.txt*. 
+It is easy to create a Python 3 (ana)conda environment named `bokeh_env` and install all the dependencies with the following command:
+```conda create --name bokeh_env --file requirements.txt python=3.7```
 
-The easiest way to do this is to install [anaconda](https://www.anaconda.com/distribution/) and install the libraries in your root environment:
-```conda install matplotlib pandas seaborn```
+Then, activate this environment with the command:
+```conda activate bokeh_env```
 
-If you already have a running (ana)conda environment, you can use `intro.yml` to set up a separate enviroment:
-```conda env create -f environment.yml```
+Alternatively, you can install all the dependencies using pip with the following command:
+```pip install -r requirements.txt```
+
+**Note:** Please ensure that you navigate to the directory where the *requirements.txt* file is stored before running either of these commands
 
 ## Requirements
 * Python 3
-* ...
+* Your Github account
+* Git 
+* [miniconda](https://docs.conda.io/en/latest/miniconda.html) or [anaconda](https://www.anaconda.com/products/individual)
+
 
 ## Usage
 * Clone the repository
-* Start jupyter(lab) and navigate to the workshop folder
+* Navigate to the workshop folder and start [Jupyter Lab](https://pypi.org/project/jupyterlab/) with the command `jupyter lab` 
 
 ## Credits
-This workshop was set up by @pyladiesams and {your github}
+This workshop was set up by @pyladiesams and @bhoom10
