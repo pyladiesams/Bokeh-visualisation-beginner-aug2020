@@ -23,13 +23,14 @@ Alternatively, you can install all the dependencies using pip with the following
 ## Requirements
 * Python 3
 * Your Github account
-* Git 
+* [Git](https://git-scm.com/download/). Brush up on your Git knowledge with this [Git ramp up tutorial](https://try.github.io/)
 * [miniconda](https://docs.conda.io/en/latest/miniconda.html) or [anaconda](https://www.anaconda.com/products/individual)
 
 
 ## Usage
 * Clone the repository
-* Navigate to the workshop folder and start [Jupyter Lab](https://pypi.org/project/jupyterlab/) with the command `jupyter lab` 
+* Navigate to the workshop folder and activate the conda environment using the command: ```conda activate bokeh_env```
+* Start [Jupyter Lab](https://pypi.org/project/jupyterlab/) with the command `jupyter lab` 
 
 **Note:** We wil be using Jupyter Lab for this workshop. It is also possible to use Jupyter Notebooks with the command `jupyter`.
 
