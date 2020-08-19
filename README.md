@@ -32,7 +32,7 @@ Alternatively, you can install all the dependencies using pip with the following
 * Navigate to the workshop folder and activate the conda environment using the command: ```conda activate bokeh_env```
 * Start [Jupyter Lab](https://pypi.org/project/jupyterlab/) with the command `jupyter lab` 
 
-**Note:** We wil be using Jupyter Lab for this workshop. It is also possible to use Jupyter Notebooks with the command `jupyter`.
+**Note:** We wil be using Jupyter Lab for this workshop. It is also possible to use Jupyter Notebooks with the command `jupyter notebook`.
 
 ## Credits
 This workshop was set up by @pyladiesams and @bhoom10
