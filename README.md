@@ -34,5 +34,8 @@ Alternatively, you can install all the dependencies using pip with the following
 
 **Note:** We wil be using Jupyter Lab for this workshop. It is also possible to use Jupyter Notebooks with the command `jupyter notebook`.
 
+## Video recording
+[An introduction to  Interactive Data Visualization with Bokeh](https://youtu.be/5MhlCabsSRw)
+
 ## Credits
 This workshop was set up by @pyladiesams and @bhoom10
